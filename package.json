@@ -1,18 +1,12 @@
 {
-  "name": "hoge",
+  "name": "fleur-ric-tac-toe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fleur/fleur": "^1.1.0",
-    "@fleur/fleur-react": "^1.0.0",
-    "@types/jest": "24.0.13",
-    "@types/node": "12.0.2",
-    "@types/react": "16.8.18",
-    "@types/react-dom": "16.8.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "typescript": "3.4.5"
+    "@fleur/fleur": "^1.4.0",
+    "@fleur/fleur-react": "^1.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +28,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "react-scripts": "^3.3.1",
+    "typescript": "^3.7.5"
   }
 }
